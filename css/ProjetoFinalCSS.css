@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Fonts --- */
+h1 {
+    font-family: IBM Plex Mono;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Space Mono;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+th {
+    font-family: Space Mono;
+}
+
+#nav-bar {
+    font-family: Permanent Marker;
+    font-size: x-large;
+}
+
+#footer {
+    font-size: xx-small;
+}
+
+.foot-text {
+    font-family: Space Mono;
+    font-size: x-small;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* --- Background --- */
+.container {
+    position: relative;
+    z-index: 2;
+    background-image: linear-gradient(to bottom right, rgba(255, 140, 0, 0.502), rgba(255, 255, 255, 0.263), rgba(29, 140, 238, 0.502));
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url(../images/Background.png);
+    opacity: 0.12;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+/* --- Nav Bar Screen Placement --- */
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 1%;
+    z-index: 2;
+}
+
+#nbelement {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+nav a {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+#AM {
+    padding-top: 13%;
+    margin-top: -6%;
+}
+
+#S-E {
+    padding-top: 13%;
+    margin-top: -5.5%;
+}
+
+#PRO {
+    padding-top: 7%;
+}
+
+#WE {
+    padding-top: 7%;
+}
+
+/* --- Colors --- */
+#grey {
+    color: rgb(49, 49, 49);
+}
+
+#dark-blue {
+    color: rgb(0, 98, 255);
+}
+
+#light-blue {
+    color: rgb(9, 132, 203);
+}
+
+#white {
+    color: rgb(193, 193, 193);
+}
+
+#orange {
+    color: rgb(227, 130, 51);
+}
+
+/* --- Text and Image Alignment --- */
+.wrap-content {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    padding: 20px;
+}
+
+.portrait {
+    padding-top: 17%;
+    padding-left: 15%;
+}
+
+#portrait {
+    border-radius: 10%;
+}
+
+.aboutme {
+    text-align: left;
+    font-size: x-large;
+}
+
+.aboutmesection {
+    margin-top: 3rem;
+}
+
+.p-1-1 {
+    margin-top: 2rem;
+}
+
+.p-1-2 {
+    margin-top: 3rem;
+}
+
+.skillseducationsection {
+    margin-top: 2rem;
+}
+
+.skillseducation {
+    width: 81%;
+    text-align: center;
+    padding-left: 21%;
+    padding-top: 1.5rem;
+}
+
+.p-2-1 {
+    margin: 2.5rem;
+}
+
+.p-2-2 {
+    margin: 2.5rem;
+}
+
+.projectssection {
+    margin-top: 6.5rem;
+}
+
+.p-3-1 {
+    margin: 3.5rem;
+}
+
+.ekl {
+    width: 100%;
+    text-align: center;
+    margin: 3.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p-3-2 {
+    margin: 2.5rem;
+}
+
+.workexperiencesection {
+    margin-top: 6.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.p-4-1 {
+    margin: 2.5rem;
+}
+
+.p-4-2 {
+    margin: 2.5rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 0.1rem;
+}
+
+#footer{
+    padding-top: 10px;
+}
+
+.workexperiencedivision {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: -15%;
+    z-index: 1;
+}
+
+.projectsdivision {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: -15%;
+    z-index: 1;
+}
+
+.skillseducationdivision {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: -35%;
+    z-index: 1;
+}
+
+.table {
+    width: 100%;
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.table th {
+    width: 15%;
+    padding-right: 50px;
+}
+
+.table tr {
+    width: 15%;
+}
+
+.table td {
+    width: 15%;
+    padding-right: 50px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+.foot-text th {
+    padding-right: 15px;
+}
+
+.foot-text td {
+    padding-right: 15px;
+}
